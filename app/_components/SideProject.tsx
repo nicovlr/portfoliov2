@@ -1,5 +1,6 @@
 import { LucideIcon } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 export type SideProjectProps = {
   Logo: LucideIcon;
@@ -40,7 +41,7 @@ export const Work = (props: WorkProps) => {
   return (
     <Link href={props.url} className="inline-flex intems-center gap-4 hover bg-accent/50 tansition-colors p-1 rounded">
       <span className="bg-accent text-accent-forground p-3 rounded-sm">
-        <img
+        <Image
           src={props.image}
           alt={props.title}
           className="w-10 h-10 object-contain rounded-md" />
