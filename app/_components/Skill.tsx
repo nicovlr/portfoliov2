@@ -43,7 +43,7 @@ export const Skills = () => {
 
             
               <h3 className="text-2xl font-semibold tracking-tight mb-2">Swift</h3>
-              <p className="text-sm text-muted-foreground">I using <Code>Swift</Code> since May for native <Code>iOS</Code> development.
+              <p className="text-sm text-muted-foreground">I using <Code>Swift</Code> since May for native iOS development.
             </p>
           </div>
 

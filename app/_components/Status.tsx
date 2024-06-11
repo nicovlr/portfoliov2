@@ -1,25 +1,25 @@
-import { Code, RewindIcon, RollerCoaster } from "lucide-react";
+import { Code, RewindIcon, RollerCoaster, Smartphone, Clapperboard, } from "lucide-react";
 import { SideProjectProps } from "./SideProject";
 
 export const SIDE_PROJECTS: SideProjectProps [] = [
   {
-    Logo: Code,
-    title:"Code line",
-    description: "lorem",
-    url: "/",
+    Logo: Clapperboard,
+    title:"clone TF1+",
+    description: "iOS",
+    url: "https://www.linkedin.com/in/nico-vlr123/"
   },
 
   {
-    Logo: Code,
-    title:"Code line",
-    description: "lorem",
-    url:"/",
+    Logo:Code,
+    title:"cned",
+    description: "backend",
+    url:"https://www.linkedin.com/in/nico-vlr123/",
   },
   {
-    Logo: Code,
-    title:"Code line",
-    description: "lorem",
-    url:":"
+    Logo: Smartphone,
+    title:"jeux mobile",
+    description: "flapbird",
+    url:"https://www.linkedin.com/in/nico-vlr123/"
   },
 
 ];

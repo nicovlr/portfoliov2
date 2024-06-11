@@ -10,7 +10,8 @@ export type SideProjectProps = {
 };
 export const SideProject = (props: SideProjectProps) => {
   return (
-    <Link href={props.url} className="inline-flex intems-center gap-4 hover bg-accent/50 tansition-colors p-1 rounded">
+    <Link href={props.url} 
+    className="inline-flex intems-center gap-4 hover bg-accent/50 tansition-colors p-1 rounded">
       <span className="bg-accent text-accent-forground p-3 rounded-sm">
         <props.Logo size={16} />
       </span>
@@ -27,10 +28,10 @@ export const WORKS: WorkProps[] = [
     title: "Cned",
     role: "BTS sio slam",
     date: "2023",
-    url: "b",
+    url: "https://www.linkedin.com/in/nico-vlr123/",
   },
 ];
-type WorkProps = {
+  type WorkProps = {
   image: string;
   title: string;
   role: string;
@@ -39,9 +40,9 @@ type WorkProps = {
 };
 export const Work = (props: WorkProps) => {
   return (
-    <Link href={props.url} className="inline-flex intems-center gap-4 hover bg-accent/50 tansition-colors p-1 rounded">
+    <Link href={props.url}className="inline-flex intems-center gap-4 hover bg-accent/40 tansition-colors p-1 rounded">
       <span className="bg-accent text-accent-forground p-3 rounded-sm">
-        <Image
+        <img
           src={props.image}
           alt={props.title}
           className="w-10 h-10 object-contain rounded-md" />
